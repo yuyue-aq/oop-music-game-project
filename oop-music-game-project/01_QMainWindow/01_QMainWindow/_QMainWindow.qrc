@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/_QMainWindow">
+        <file>Icon/Icon.ico</file>
+        <file>Icon/Icon.png</file>
+        <file>background.png</file>
+        <file>Start.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{829891d7-524d-40e1-9e0e-0ee533339d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{25e26af7-12fc-423f-9dd8-62307b2786b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\01_QMainWindow">
+      <UniqueIdentifier>{8e6c0b72-1c98-4b79-8cff-57acc9852c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{891d889c-7d81-4133-9ec3-943f0a795ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Core">
+      <UniqueIdentifier>{92e825cb-b9f3-44ed-af8a-add49410bdfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Game">
+      <UniqueIdentifier>{a16529ce-12f6-4533-b4e0-47c0cd4e83cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI">
+      <UniqueIdentifier>{1499e6d0-07b6-46e3-b4a0-d639f01ba126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\01_QMainWindow">
+      <UniqueIdentifier>{eb1b0ab5-182d-4462-84ca-9d5d1c947f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="_QMainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="StartWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="aboutDialog.ui">
+      <Filter>Resource Files\UI</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Statistics.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GameConfig.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\HitResult.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Note.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\OszParser.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Player.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Song.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\AudioSync.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\UI\ResultDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="..\UI\SettingsDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="_QMainWindow.h">
+      <Filter>Header Files\01_QMainWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="StartWindow.h">
+      <Filter>Header Files\01_QMainWindow</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\GameConfig.cpp">
+      <Filter>Resource Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\HitResult.cpp">
+      <Filter>Resource Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Note.cpp">
+      <Filter>Resource Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\OszParser.cpp">
+      <Filter>Resource Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Player.cpp">
+      <Filter>Resource Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Song.cpp">
+      <Filter>Resource Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Statistics.cpp">
+      <Filter>Resource Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\AudioSync.cpp">
+      <Filter>Resource Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\ResultDialog.cpp">
+      <Filter>Resource Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingsDialog.cpp">
+      <Filter>Resource Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="_QMainWindow.cpp">
+      <Filter>Resource Files\01_QMainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartWindow.cpp">
+      <Filter>Resource Files\01_QMainWindow</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\Downloads\Caramelldansen.osz">
+      <Filter>Resource Files\Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="_QMainWindow.qrc">
+      <Filter>Resource Files\Source Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon\Icon.ico">
+      <Filter>Resource Files\Source Files</Filter>
+    </Image>
+    <Image Include="Icon\Icon.png">
+      <Filter>Resource Files\Source Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
